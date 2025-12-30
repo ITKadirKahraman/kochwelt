@@ -192,6 +192,12 @@ body{
     height: 80px;
 }
 
+.x{
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+    }
+
 @media(min-width: 670px) and (max-width: 800px) {
     .body{
         overflow-x: hidden;
@@ -247,6 +253,12 @@ body{
         flex-direction: column;
         padding-bottom: 20px;
         gap: 20px;
+    }
+
+    .x{
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
     }
 }
 
@@ -409,5 +421,11 @@ body{
     .footerLogo img{
         width: auto;
         height: 80px;
+    }
+
+    .x{
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
     }
 }
