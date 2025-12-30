@@ -110,6 +110,56 @@ body{
 }
 
 /*
+    PORTION CONTAINER
+*/
+
+.anzahlZutaten {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+input {
+    width: 100px;
+    height: 20px;
+}
+
+.buttonPortion {
+    width: 100px;
+    height: 27px;
+    background-color: rgb(2,129,0);
+    color: white;
+    border-color: rgb(2,129,0);
+}
+
+.tableRezept{
+    width: 100wh;
+    padding-left: 30px;
+}
+
+.tableRezept td{
+    padding: 8px 12px;
+}
+
+.amount{
+    width: 60px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.tableGrey {
+    background-color: rgb(240,240,240);
+
+}
+
+.tableWhite {
+    background-color: rgb(255,255,255);
+}
+
+/*
     USER CONTAINER
 */
 .userContainer {
@@ -173,6 +223,12 @@ body{
     height: 80px;
 }
 
+.x{
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+    }
+
 @media(min-width: 670px) and (max-width: 800px) {
     .body{
         overflow-x: hidden;
@@ -230,6 +286,12 @@ body{
     .karniyarikImg img{
         width: 80vw;
         height: 240px;
+    }
+
+    .x{
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
     }
 }
 
@@ -383,5 +445,11 @@ body{
     .footerLogo img{
         width: auto;
         height: 80px;
+    }
+
+    .x{
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
     }
 }
